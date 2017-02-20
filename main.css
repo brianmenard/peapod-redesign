@@ -11,8 +11,16 @@ body{
     padding-right: 25px; padding-left:25px;
 }
 
+.searchbar .logo{
+    align-self: flex-start;
+}
+
+.searchbar .logo img{
+    width: 100px;
+}
+
 .content{
-    border: solid black thick;
+    border: solid thin gray;
     display: flex;
     flex-direction:row;
     justify-content:space-between;
@@ -20,18 +28,33 @@ body{
 
 .feature{
     height: 300px;
-    width: 75vw;
+    width: 80vw;
     background-color: blue;
     margin-top: 25px; margin-bottom:25px;
     margin-right: 25px;
 }
 
 .side_nav{
-    width: 200px;
-    height: 70vh;
-    background-color: yellow;
+    width: 150px;
+    border-right: thin solid gray;
     padding: 25px;
 }
+
+    .side_nav h1{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0; padding: 0;
+        margin-bottom: 10px;
+    }
+    
+    .side_nav a h2{
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0; padding: 0;
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+    }
 
 .cart_button{
     background-color: #00D35B;
