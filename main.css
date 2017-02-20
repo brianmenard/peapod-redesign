@@ -11,18 +11,26 @@ body{
     padding-right: 25px; padding-left:25px;
 }
 
-.features{
-    height: 400px;
+.content{
     border: solid black thick;
     display: flex;
     flex-direction:row;
+    justify-content:space-between;
 }
 
 .feature{
-    height: 150px;
-    width: 250px;
-    border:thin solid black;
-    margin: 25px;
+    height: 300px;
+    width: 75vw;
+    background-color: blue;
+    margin-top: 25px; margin-bottom:25px;
+    margin-right: 25px;
+}
+
+.side_nav{
+    width: 200px;
+    height: 70vh;
+    background-color: yellow;
+    padding: 25px;
 }
 
 .cart_button{
